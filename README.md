@@ -13,11 +13,11 @@ I will be comparing the performance (time) between Java and C++ doing a sorting 
 ## [Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) pseudocode
 Offset = index of first element<br>
 Sorted index = size of list<br>
-While(Sorted index != 0):<br>
-&nbsp; If(First index + Offset < Second index + Offset):<br>
+While(Sorted index != 1):<br>
+&nbsp; If(First index + Offset > Second index + Offset):<br>
 &nbsp;&nbsp; Swap(First index + Offset and Second index + Offset)<br>
 &nbsp; Offset = Offset + 1<br>
-&nbsp; If(Offset = Sorted index)<br>
+&nbsp; If(Offset + 1 = Sorted index)<br>
 &nbsp;&nbsp; Offset = 0<br>
 &nbsp;&nbsp; Sorted = Sorted - 1<br>
 ## Why bubble sort?
