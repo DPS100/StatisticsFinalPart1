@@ -60,7 +60,7 @@ While(Sorted index != 1):<br>
 Powershell's Measure Command cmdlet was used to measure the time for commands to execute.
 1. [Navigate](https://www.howtogeek.com/659411/how-to-change-directories-in-command-prompt-on-windows-10/) to the [Builds](https://github.com/DPS100/StatisticsFinalPart1/tree/main/Builds) folder in the command line.
 2. Switch to powershell by typing `powershell`
-3. Run either the Java or C++ code, by using `Measure-Command{<Java/C++>}`, where `<Java/C++>` is replaced by their respecive run command.
+3. Run either the Java or C++ code, by using `Measure-Command{<Java/C++>}`, where `<Java/C++>` is replaced by their respecive run command. You will have to add a `./` before `BubbuleSortJava.jar` or `BubbleSortC++.exe` for the command to correctly run in powershell
 
 ## Potential Questions
 
