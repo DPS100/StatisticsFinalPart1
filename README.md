@@ -12,7 +12,7 @@ values. You can look up data on the web (be sure to provide a citation) or you c
 collect your own data (explain your method).
 
 ## Overview
-I will be comparing the performance (time) between Java and C++ doing a sorting algorithm. I will be using the same data set, the numbers 1-1000 randomly shuffled by [Random.org's list randomizer](https://www.random.org/lists/), along with the same pseudocode for bubble sort transcribed into Java and C++. I will do 50 trials of each language and record the time taken for each.
+I will be comparing the performance (time) between Java and C++ doing a sorting algorithm. I will be using the same data set, the numbers 1-5000 randomly shuffled by [Random.org's list randomizer](https://www.random.org/lists/), along with the same pseudocode for bubble sort transcribed into Java and C++. I will do 20 trials of each language and record the time taken for each.
 
 ## [Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) pseudocode
 Offset = index of first element<br>
