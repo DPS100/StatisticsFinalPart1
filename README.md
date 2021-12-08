@@ -64,9 +64,8 @@ Powershell's Measure Command cmdlet was used to measure the time for commands to
 
 ## Potential Questions
 
-> Why bubble sort?
+- Why bubble sort?
+> Bubble sort is nowhere near the fastest sorting algorithm, so why use it? I chose bubble sort because the higher number of actions will allow a more accurate time measurement, and will exemplify the differences between the performance between two languages. The implementation is also quite simple, so I can create very similar versions in both languages.
 
-Bubble sort is nowhere near the fastest sorting algorithm, so why use it? I chose bubble sort because the higher number of actions will allow a more accurate time measurement, and will exemplify the differences between the performance between two languages. The implementation is also quite simple, so I can create very similar versions in both languages.
-> Why hardcode the shuffled list rather than parse a file?
-
-While parsing a file is often the better choice, I want to compare just the sorting algorithm, and the different libraries may parse the files at different speeds. On that same idea, I used the Measure-Command cmdlet instead of language-dependant time libraries.
+- Why hardcode the shuffled list rather than parse a file?
+> While parsing a file is often the better choice, I want to compare just the sorting algorithm, and the different libraries may parse the files at different speeds. On that same idea, I used the Measure-Command cmdlet instead of language-dependant time libraries.

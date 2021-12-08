@@ -1,3 +1,4 @@
 .vscode
-ShuffledList/*.exe
-Builds/*.class
+**.exe
+**.jar
+**.class
